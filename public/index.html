@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="parent-wrapper">
+
+        <div class="box1">
+            <h3>Imran Mail</h3>
+            <button onClick="showNewTemplate()">New</button><br>
+            <hr>
+            <button onClick="showInboxEmails()">Inbox</button><br>
+            <hr>
+            <button onClick="showSentEmails()">Sent</button><br>
+            <hr>
+            <button onClick="showDeleteEmails()">Deleted</button>
+            <hr>
+        </div>
+
+        <div class="box2" id="email-box">
+            <button onclick="deleteEmails()">Delete</button>
+            <button onclick="markAsRead()">Mark As Read</button>
+            <button onclick="markAsUnRead()">Mark As Unread</button><br>
+            <hr>
+            <ul id='email-list'>
+                <!-- let todoDiv = `
+                    <li id=${element.id}>
+                        <input type='checkbox' id=${element.id}>
+                        <p class = "text terms-checkbox"> ${element.taskName} </p>
+                    </li>`; -->
+            </ul>
+        </div>
+
+        <div class="box3" id="email-temp">
+            <div id='email-parent'>
+
+            </div>
+            <!-- <div class='email-content'> -->
+                <!-- <lable>To:</lable>
+                <h4>shaikhimran@gmail.com</h4>
+                <label>Subject: </label>
+                <p>Resume of imran</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error incidunt dolorum suscipit sequi non
+                    pariatur facere quos reprehenderit ullam possimus quam placeat, architecto molestiae omnis repellat
+                    tempore amet? Ea, ex! </p> -->
+            <!-- </div> -->
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+    <script src="./email.js"></script>
+</body>
+
+</html>
