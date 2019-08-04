@@ -289,8 +289,8 @@ function showNewTemplate(e) {
         eContent.parentNode.removeChild(eContent);
     }
     let emailTemplate = `<div id='email-template'>
-        <br>To: <input value="inam@gmail.com" type="text" id="email-to" placeholder="imran@gmail.com">
-        Subject: <input value ="Halchal" id="email-subject" type="text"><br>
+        <br>To: <input value="" type="text" id="email-to" placeholder="imran@gmail.com">
+        Subject: <input value ="" id="email-subject" type="text"><br>
         <textarea id="email-text" placeholder="write an email">
             </textarea><br><br>
         <input type='button' value="Send" id="sent-btn"/>
@@ -317,7 +317,7 @@ function saveEmail() {
         from: 'imran@gmail.com',
         to: emailTo,
         subject: emailSubject,
-        text: "Hi Inam How are your",
+        text: emailText,
         status: 'SENT',
         readStatus: null
     }
