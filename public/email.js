@@ -317,7 +317,7 @@ function saveEmail() {
         from: 'imran@gmail.com',
         to: emailTo,
         subject: emailSubject,
-        text: emailText,
+        text: emailText    ,
         status: 'SENT',
         readStatus: null
     }

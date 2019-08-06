@@ -1,0 +1,23 @@
+{
+  "name": "food-app1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imran-mind/food-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imran-mind/food-app/issues"
+  },
+  "homepage": "https://github.com/imran-mind/food-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
